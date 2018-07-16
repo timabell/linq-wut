@@ -10,6 +10,10 @@ namespace LinqWut
         {
             var results = value.ToList();
             var resultsCount = results.Count;
+            if (resultsCount == 0)
+            {
+                throw new InvalidOperationException($"Expected 1 {typeof(TEntity)} but got 0");
+            }
             if (resultsCount > 1)
             {
                 throw new InvalidOperationException($"Expected 1 {typeof(TEntity)} but got {resultsCount}");
