@@ -14,7 +14,7 @@ namespace LinqWutTests
         {
             var list = new List<int> { 1,2,3 };
             list.Invoking(x => x.SingleWithContext())
-                .Should().Throw<Exception>();
+                .Should().Throw<InvalidOperationException>().WithMessage("Expected 1 System.Int32 but got 3");
         }
 
         [TestMethod]
