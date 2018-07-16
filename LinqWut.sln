@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWut", "LinqWut\LinqWut.csproj", "{4E084F8C-E880-4710-8465-0C1A4E7AC2E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E084F8C-E880-4710-8465-0C1A4E7AC2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E084F8C-E880-4710-8465-0C1A4E7AC2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E084F8C-E880-4710-8465-0C1A4E7AC2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E084F8C-E880-4710-8465-0C1A4E7AC2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCBCC3BD-15CB-4B9F-87C0-52668BC032A4}
+	EndGlobalSection
+EndGlobal
